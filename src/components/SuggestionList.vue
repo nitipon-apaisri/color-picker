@@ -12,7 +12,7 @@
 export default {
   props: ['match'],
   data(){ return {
-    color: ['red','green','blue'] // Change this to a vuex getter that filters based on this.match
+    colors: ['red','green','blue'] // Change this to a vuex getter that filters based on this.match
   }},
 }
 </script>
